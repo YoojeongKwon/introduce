@@ -99,7 +99,7 @@ body {
     margin-bottom: 25px;
 }
 
-.numbers {
+.numbers, .detail {
     width: 100%;
     display: flex;
 }
@@ -115,4 +115,15 @@ body {
 
 .mail, .phone {
     border-right: 2px solid rgba(0, 0, 0, 0.3)
+}
+
+.mailAdd, .phoneNum, .socialAdd {
+    flex: 1;
+    margin: 30px 10px;
+    text-align: center;
+    border: 2px double rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0;
 }
